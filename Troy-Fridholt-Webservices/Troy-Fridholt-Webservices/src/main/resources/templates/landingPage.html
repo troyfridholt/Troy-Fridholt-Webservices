@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Examens Arbete</title>
+</head>
+<body>
+	<h2>HomePage</h2>
+	<div>
+		<h3>Welcome</h3>
+	</div>
+	<div>
+		<p>------------------------------------------------------------------------------</p>
+		<h5>"/calc"</h5>
+		<p>To use the calculator, provide values val1 and val2 </p>
+		<p>example: /calc?val1=2&val2=2&operation=-</p>
+		<p>note that "+" works in the format of "%2b"</p>
+		
+		
+	</div>
+	<div>
+		<p>------------------------------------------------------------------------------</p>
+		<h5>"/img"</h5>
+		<p>Gives a random image.</p>
+		
+	</div>
+	<div>
+		<p>------------------------------------------------------------------------------</p>
+		<h5>"/csv"</h5>
+		<p>prints sample.csv document to Json format</p>
+		
+	</div>
+	<div>
+		<p>------------------------------------------------------------------------------</p>
+		<h5>"rps" (POST)</h5>
+		
+	<p>RPS works, just put in the value below.</p>
+	
+	<form action="http://localhost:8080/rps"  method="POST">
+
+        <label for="rps">Choose a option:</label>
+		<select id="rps" name="userInput">
+  			<option value="rock">Rock</option>
+  			<option value="paper">Paper</option>
+  			<option value="scissor">Scissor</option>
+		</select>
+        <input type="submit" value="go">
+ 	</form>
+        <p>------------------------------------------------------------------------------</p>
+	</div>
+
+</body>
+</html>
