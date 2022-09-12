@@ -1,9 +1,9 @@
 package com.example.demo;
 
 public class calcBean {
-
-	private int num1;
-	private int num2;
+	//Flyttar rad 6 till rad 5 för förenklad läsning av koden.
+	private int num1,  num2;
+	//private int num2;
 
 	public int getNum1() {
 		return num1;
