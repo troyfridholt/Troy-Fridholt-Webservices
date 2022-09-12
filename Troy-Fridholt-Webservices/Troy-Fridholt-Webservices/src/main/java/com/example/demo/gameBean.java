@@ -2,17 +2,18 @@ package com.example.demo;
 
 public class gameBean {
 
-	private int games = 0;
-	private int win = 0;
+	//Flyttar rad 7-9 till rad 6 för förenklad läsning och mindre kod.
+	private int games = 0; , win = 0; , loss = 0; , tie = 0;
+	/*private int win = 0;
 	private int loss = 0;
-	private int tie = 0;
+	private int tie = 0;*/
 	
 	
-	public void addResult(String matchResut)
+	public void addResult(String matchResult)
 	{
 		games += 1;
 
-		switch (matchResut)
+		switch (matchResult)
 		{
 		case "win":
 			win += 1;
