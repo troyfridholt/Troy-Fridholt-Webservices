@@ -1,15 +1,15 @@
 package com.example.demo;
 
 public class orderBean {
-	
-	private String date;
-	private String region;
+	//Flyttar rad 6-12 till rad 5 för mindre kod och förenklad läsning.
+	private String date, region, firstName, surName, item, units, unitCost, totalCost;
+	/*private String region;
 	private String firstName;
 	private String surName;
 	private String item;
 	private String units;
 	private String unitCost;
-	private String totalCost;
+	private String totalCost;*/
 	
 	
 	
